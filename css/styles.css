@@ -22,4 +22,41 @@ ul {
 body {
     margin: 0;
     font-family: sans-serif;
+    background: #333;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.flag {
+    width: 400px;
+    height: 300px;
+    border: 3px solid white;
+}
+
+.flag-1 {
+    background-image: linear-gradient(red 100px, blue 100px 200px, orange 200px);
+}
+
+.flag-2 {
+    background-image: linear-gradient(to right, black 133px, yellow 133px 266px, red 133px);
+}
+
+.flag-3 {
+    background-image: linear-gradient(lightblue 33.3%, white 33.3% 43.3%, black 43.3% 63.3%, white 63.3% 73.3%, lightblue 73.3%);
+}
+
+.flag-4 {
+    background-image: linear-gradient(to right, green 150px, transparent 150px), linear-gradient(to bottom, yellow 50%, red 50%);
+}
+
+.flag-5 {
+    background-image: linear-gradient(135deg, green 207px, yellow 207px 280px, red 280px);
+}
+
+.flag-6 {
+    background-image: linear-gradient(130deg, blue 0%, transparent 20%), linear-gradient(155deg, orange 20%, transparent 40%), linear-gradient(180deg, yellow 40%, transparent 60%), linear-gradient(205deg, green 60%, transparent 80%), linear-gradient(230deg, purple 80%, transparent 100%);
 }
